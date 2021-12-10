@@ -1,2 +1,10 @@
-Flask
-Gunicorn
+blspy==1.0.8
+click==8.0.3
+clvm==0.9.7
+clvm-rs==0.1.16
+clvm-tools==0.4.3
+Flask==2.0.2
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+Werkzeug==2.0.2
