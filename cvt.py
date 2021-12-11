@@ -20,6 +20,7 @@ def create_address_by_pk(pk: str, address_prefix: str) -> str:
         address_prefix
     )
     pkcache[jpk] = addr
+    return addr
 
 if __name__ == "__main__":
     addr = create_address_by_pk(pk0,'xch')
