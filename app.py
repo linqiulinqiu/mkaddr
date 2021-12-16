@@ -2,9 +2,10 @@
 
 from cvt import create_address_by_pk
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+cors = CORS(app, resources={r"/pk2addr/*":{"origins": "*"}})
 
 def convert(prefix,pk):
     try:

@@ -3,6 +3,7 @@ click==8.0.3
 clvm==0.9.7
 clvm-rs==0.1.16
 clvm-tools==0.4.3
+flask-cors==3.0.10
 itsdangerous==2.0.1
 Flask
 Gunicorn
